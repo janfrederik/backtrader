@@ -155,11 +155,9 @@ def num2date(x, tz=None, naive=True):
     0001-01-01 00:00:00 UTC *plus* *one*.
     The addition of one here is a historical artifact.  Also, note
     that the Gregorian calendar is assumed; this is not universal
-    practice.  For details, see the module docstring.
+    practice.
     Return value is a :class:`datetime` instance in timezone *tz* (default to
     rcparams TZ value).
-    If *x* is a sequence, a sequence of :class:`datetime` objects will
-    be returned.
     """
 
     ix = int(x)
